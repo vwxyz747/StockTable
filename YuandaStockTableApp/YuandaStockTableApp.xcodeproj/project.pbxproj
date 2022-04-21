@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0548EB9280FBA050047B783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EB8280FBA050047B783 /* AppDelegate.swift */; };
+		C0548EBB280FBA050047B783 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EBA280FBA050047B783 /* SceneDelegate.swift */; };
+		C0548EBD280FBA050047B783 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EBC280FBA050047B783 /* MainViewController.swift */; };
+		C0548EC0280FBA050047B783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0548EBE280FBA050047B783 /* Main.storyboard */; };
+		C0548EC2280FBA060047B783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0548EC1280FBA060047B783 /* Assets.xcassets */; };
+		C0548EC5280FBA060047B783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0548EC3280FBA060047B783 /* LaunchScreen.storyboard */; };
+		C0548ED0280FBA060047B783 /* YuandaStockTableAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548ECF280FBA060047B783 /* YuandaStockTableAppTests.swift */; };
+		C0548EDA280FBA060047B783 /* YuandaStockTableAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548ED9280FBA060047B783 /* YuandaStockTableAppUITests.swift */; };
+		C0548EDC280FBA060047B783 /* YuandaStockTableAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EDB280FBA060047B783 /* YuandaStockTableAppUITestsLaunchTests.swift */; };
+		C0548EE9280FBB8F0047B783 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EE8280FBB8F0047B783 /* ApiHelper.swift */; };
+		C0548EEB280FC5E90047B783 /* PriceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EEA280FC5E90047B783 /* PriceManager.swift */; };
+		C0548EED280FC79C0047B783 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EEC280FC79C0047B783 /* SettingViewController.swift */; };
+		C0548EF1280FD9810047B783 /* StockPriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EF0280FD9810047B783 /* StockPriceData.swift */; };
+		C0548EF3280FEC4C0047B783 /* StockPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EF2280FEC4C0047B783 /* StockPriceModel.swift */; };
+		C0548EF5281000110047B783 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EF4281000110047B783 /* Extension.swift */; };
+		C0548EF7281001B70047B783 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EF6281001B70047B783 /* Utils.swift */; };
+		C0548EF928102C640047B783 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0548EF828102C640047B783 /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0548ECC280FBA060047B783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0548EAD280FBA050047B783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0548EB4280FBA050047B783;
+			remoteInfo = YuandaStockTableApp;
+		};
+		C0548ED6280FBA060047B783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0548EAD280FBA050047B783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0548EB4280FBA050047B783;
+			remoteInfo = YuandaStockTableApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0548EB5280FBA050047B783 /* YuandaStockTableApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuandaStockTableApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0548EB8280FBA050047B783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0548EBA280FBA050047B783 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0548EBC280FBA050047B783 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C0548EBF280FBA050047B783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0548EC1280FBA060047B783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0548EC4280FBA060047B783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0548EC6280FBA060047B783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0548ECB280FBA060047B783 /* YuandaStockTableAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuandaStockTableAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0548ECF280FBA060047B783 /* YuandaStockTableAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuandaStockTableAppTests.swift; sourceTree = "<group>"; };
+		C0548ED5280FBA060047B783 /* YuandaStockTableAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuandaStockTableAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0548ED9280FBA060047B783 /* YuandaStockTableAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuandaStockTableAppUITests.swift; sourceTree = "<group>"; };
+		C0548EDB280FBA060047B783 /* YuandaStockTableAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuandaStockTableAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0548EE8280FBB8F0047B783 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		C0548EEA280FC5E90047B783 /* PriceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceManager.swift; sourceTree = "<group>"; };
+		C0548EEC280FC79C0047B783 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C0548EF0280FD9810047B783 /* StockPriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPriceData.swift; sourceTree = "<group>"; };
+		C0548EF2280FEC4C0047B783 /* StockPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPriceModel.swift; sourceTree = "<group>"; };
+		C0548EF4281000110047B783 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C0548EF6281001B70047B783 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C0548EF828102C640047B783 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0548EB2280FBA050047B783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548EC8280FBA060047B783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548ED2280FBA060047B783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0548EAC280FBA050047B783 = {
+			isa = PBXGroup;
+			children = (
+				C0548EB7280FBA050047B783 /* YuandaStockTableApp */,
+				C0548ECE280FBA060047B783 /* YuandaStockTableAppTests */,
+				C0548ED8280FBA060047B783 /* YuandaStockTableAppUITests */,
+				C0548EB6280FBA050047B783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0548EB6280FBA050047B783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0548EB5280FBA050047B783 /* YuandaStockTableApp.app */,
+				C0548ECB280FBA060047B783 /* YuandaStockTableAppTests.xctest */,
+				C0548ED5280FBA060047B783 /* YuandaStockTableAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0548EB7280FBA050047B783 /* YuandaStockTableApp */ = {
+			isa = PBXGroup;
+			children = (
+				C0548EB8280FBA050047B783 /* AppDelegate.swift */,
+				C0548EBA280FBA050047B783 /* SceneDelegate.swift */,
+				C0548EBC280FBA050047B783 /* MainViewController.swift */,
+				C0548EEC280FC79C0047B783 /* SettingViewController.swift */,
+				C0548EEF280FD95E0047B783 /* Model */,
+				C0548EEE280FC7FC0047B783 /* Helper */,
+				C0548EBE280FBA050047B783 /* Main.storyboard */,
+				C0548EF828102C640047B783 /* Constants.swift */,
+				C0548EC1280FBA060047B783 /* Assets.xcassets */,
+				C0548EC3280FBA060047B783 /* LaunchScreen.storyboard */,
+				C0548EC6280FBA060047B783 /* Info.plist */,
+			);
+			path = YuandaStockTableApp;
+			sourceTree = "<group>";
+		};
+		C0548ECE280FBA060047B783 /* YuandaStockTableAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0548ECF280FBA060047B783 /* YuandaStockTableAppTests.swift */,
+			);
+			path = YuandaStockTableAppTests;
+			sourceTree = "<group>";
+		};
+		C0548ED8280FBA060047B783 /* YuandaStockTableAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0548ED9280FBA060047B783 /* YuandaStockTableAppUITests.swift */,
+				C0548EDB280FBA060047B783 /* YuandaStockTableAppUITestsLaunchTests.swift */,
+			);
+			path = YuandaStockTableAppUITests;
+			sourceTree = "<group>";
+		};
+		C0548EEE280FC7FC0047B783 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C0548EE8280FBB8F0047B783 /* ApiHelper.swift */,
+				C0548EEA280FC5E90047B783 /* PriceManager.swift */,
+				C0548EF4281000110047B783 /* Extension.swift */,
+				C0548EF6281001B70047B783 /* Utils.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C0548EEF280FD95E0047B783 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C0548EF0280FD9810047B783 /* StockPriceData.swift */,
+				C0548EF2280FEC4C0047B783 /* StockPriceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0548EB4280FBA050047B783 /* YuandaStockTableApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0548EDF280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableApp" */;
+			buildPhases = (
+				C0548EB1280FBA050047B783 /* Sources */,
+				C0548EB2280FBA050047B783 /* Frameworks */,
+				C0548EB3280FBA050047B783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuandaStockTableApp;
+			productName = YuandaStockTableApp;
+			productReference = C0548EB5280FBA050047B783 /* YuandaStockTableApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0548ECA280FBA060047B783 /* YuandaStockTableAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0548EE2280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableAppTests" */;
+			buildPhases = (
+				C0548EC7280FBA060047B783 /* Sources */,
+				C0548EC8280FBA060047B783 /* Frameworks */,
+				C0548EC9280FBA060047B783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0548ECD280FBA060047B783 /* PBXTargetDependency */,
+			);
+			name = YuandaStockTableAppTests;
+			productName = YuandaStockTableAppTests;
+			productReference = C0548ECB280FBA060047B783 /* YuandaStockTableAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0548ED4280FBA060047B783 /* YuandaStockTableAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0548EE5280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableAppUITests" */;
+			buildPhases = (
+				C0548ED1280FBA060047B783 /* Sources */,
+				C0548ED2280FBA060047B783 /* Frameworks */,
+				C0548ED3280FBA060047B783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0548ED7280FBA060047B783 /* PBXTargetDependency */,
+			);
+			name = YuandaStockTableAppUITests;
+			productName = YuandaStockTableAppUITests;
+			productReference = C0548ED5280FBA060047B783 /* YuandaStockTableAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0548EAD280FBA050047B783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C0548EB4280FBA050047B783 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					C0548ECA280FBA060047B783 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C0548EB4280FBA050047B783;
+					};
+					C0548ED4280FBA060047B783 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = C0548EB4280FBA050047B783;
+					};
+				};
+			};
+			buildConfigurationList = C0548EB0280FBA050047B783 /* Build configuration list for PBXProject "YuandaStockTableApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0548EAC280FBA050047B783;
+			productRefGroup = C0548EB6280FBA050047B783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0548EB4280FBA050047B783 /* YuandaStockTableApp */,
+				C0548ECA280FBA060047B783 /* YuandaStockTableAppTests */,
+				C0548ED4280FBA060047B783 /* YuandaStockTableAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0548EB3280FBA050047B783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0548EC5280FBA060047B783 /* LaunchScreen.storyboard in Resources */,
+				C0548EC2280FBA060047B783 /* Assets.xcassets in Resources */,
+				C0548EC0280FBA050047B783 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548EC9280FBA060047B783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548ED3280FBA060047B783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0548EB1280FBA050047B783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0548EF5281000110047B783 /* Extension.swift in Sources */,
+				C0548EF928102C640047B783 /* Constants.swift in Sources */,
+				C0548EF3280FEC4C0047B783 /* StockPriceModel.swift in Sources */,
+				C0548EEB280FC5E90047B783 /* PriceManager.swift in Sources */,
+				C0548EE9280FBB8F0047B783 /* ApiHelper.swift in Sources */,
+				C0548EBD280FBA050047B783 /* MainViewController.swift in Sources */,
+				C0548EF7281001B70047B783 /* Utils.swift in Sources */,
+				C0548EB9280FBA050047B783 /* AppDelegate.swift in Sources */,
+				C0548EBB280FBA050047B783 /* SceneDelegate.swift in Sources */,
+				C0548EED280FC79C0047B783 /* SettingViewController.swift in Sources */,
+				C0548EF1280FD9810047B783 /* StockPriceData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548EC7280FBA060047B783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0548ED0280FBA060047B783 /* YuandaStockTableAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0548ED1280FBA060047B783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0548EDC280FBA060047B783 /* YuandaStockTableAppUITestsLaunchTests.swift in Sources */,
+				C0548EDA280FBA060047B783 /* YuandaStockTableAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0548ECD280FBA060047B783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0548EB4280FBA050047B783 /* YuandaStockTableApp */;
+			targetProxy = C0548ECC280FBA060047B783 /* PBXContainerItemProxy */;
+		};
+		C0548ED7280FBA060047B783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0548EB4280FBA050047B783 /* YuandaStockTableApp */;
+			targetProxy = C0548ED6280FBA060047B783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0548EBE280FBA050047B783 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0548EBF280FBA050047B783 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0548EC3280FBA060047B783 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0548EC4280FBA060047B783 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0548EDD280FBA060047B783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0548EDE280FBA060047B783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0548EE0280FBA060047B783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuandaStockTableApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YuandaStockTableApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C0548EE1280FBA060047B783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YuandaStockTableApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = YuandaStockTableApp;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C0548EE3280FBA060047B783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuandaStockTableApp.app/YuandaStockTableApp";
+			};
+			name = Debug;
+		};
+		C0548EE4280FBA060047B783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuandaStockTableApp.app/YuandaStockTableApp";
+			};
+			name = Release;
+		};
+		C0548EE6280FBA060047B783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuandaStockTableApp;
+			};
+			name = Debug;
+		};
+		C0548EE7280FBA060047B783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QSGP99584;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nstock.YuandaStockTableAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuandaStockTableApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0548EB0280FBA050047B783 /* Build configuration list for PBXProject "YuandaStockTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0548EDD280FBA060047B783 /* Debug */,
+				C0548EDE280FBA060047B783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0548EDF280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0548EE0280FBA060047B783 /* Debug */,
+				C0548EE1280FBA060047B783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0548EE2280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0548EE3280FBA060047B783 /* Debug */,
+				C0548EE4280FBA060047B783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0548EE5280FBA060047B783 /* Build configuration list for PBXNativeTarget "YuandaStockTableAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0548EE6280FBA060047B783 /* Debug */,
+				C0548EE7280FBA060047B783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0548EAD280FBA050047B783 /* Project object */;
+}
